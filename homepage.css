@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+.header{
+    background-color: darkcyan;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+.header h1{
+    font-weight: 800;
+    font-size: 40px;
+    color: snow;
+}
+.header p{
+    font-size: 16px;
+    color:chartreuse;
+    padding-bottom: 5px;
+}
+.form1{
+    padding-bottom: 40px;
+    background-color: gainsboro;
+}
+.sidemenu{
+    width:280px;
+    position: fixed;
+    overflow-x: hidden;
+    height: 100%;
+    position: fixed;
+    background-color:#f7f7ee;
+    border-right: 2px solid grey;
+}
+.sidemenu li {
+    list-style: none;
+    display: block;
+    padding: 15px ;
+    border-bottom: 1px solid #679b9b;
+    
+}
+.sidemenu li a{
+    color:black;
+    text-decoration: none;
+}
+.sidemenu h1{
+   padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+.search{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 165px;
+}
+.submit{
+    padding: 5px;
+    height: 39px;
+    width: 60px;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+}
+.section{
+   margin-left: 281px;
+    margin-top: 79px;
+}
+.btn1{
+     background: none;
+    border: none;
+}
+.cross{
+    position: absolute;
+    left: 80%;
+    top: 105px;
+    color: red;
+    font-size: 60px;
+    background: none;
+    border: none;
+}
+.content{
+    display: flex;
+    /*border: 2px solid yellow;*/
+    flex-direction: column;
+    margin: 10px 20px;
+}
+.heading{
+    display: flex;
+    justify-content: flex-end;
+}
+.heading h1{
+   margin-right: 55%;
+}
+.login,.registeration{
+    color: white;;
+    background-color: cadetblue;
+    padding: 2px;
+}
+.login{
+    margin-right: 30px;
+    width: 100px;}
+.registeration{
+    margin-right: 20px;
+    width: 100px;
+    padding: 10px;
+}
+.topline{
+    height: 5px;
+    background-color: red;
+    margin: 10px 0;
+}
+.storybtn{
+    color: orange;
+    font-size: 30px;
+    position: absolute;
+    top: 600px;
+    left: 310px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+}
+.storybtn:focus{
+    border-radius: 20px;
+    color: red;
+    outline: none;
+}
+.uploadbtn{
+     background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+.uploadbtn:hover{
+    color: orange;
+}
+.uploadbtn:focus{
+    outline: none;
+}

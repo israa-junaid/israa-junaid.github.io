@@ -1,0 +1,62 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>COVID-CARE</title>
+        <link rel="stylesheet" href="homepage.css">
+    </head>
+    <body>
+        <div class="mainheader">
+            <div class="header">
+                <h1>COVID CARE</h1>
+                <p>Saving Lives,Protecting People</p>
+            </div>
+            <div class="body">
+                <div class="sidemenu" id="menu">
+                    <form class="form1">
+                        <input type="text" class="search" placeholder="Search" name="search" ><button class="submit">submit</button>
+                    </form>
+                    <h1>MENU<hr style="width: 92px;height: 2px;color: red;background-color: red;border: none;"></h1>
+                    <button class="cross" onclick="close" >&times</button>
+                    <li><a href="homepage.html">HOMEPAGE</a></li>
+                    <li><a href="symptoms.html">SYMPTOMS</a></li>
+                    <li><a href="checker.html">SYMPTOM CHECKER</a></li>
+                    <li><a href="preventions.html">PREVENTIONS</a></li>
+                    <li><a href="guidelines.html">GUIDELINES</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="registration.html">REGISTRATION</a></li>
+                    <li><a href="faqs.html">FAQS</a></li>
+                </div>
+                <div class="section" id="opensection" >
+                    <div class="part1">
+                         <button class="btn1"  style="font-size: 40px;" onclick="open" >&#9776;</button>
+                        
+                    </div>
+                    <div class="content">
+                        <div class="heading">
+                            <h1>COVID CARE</h1>
+                            <button class="login">Login</button>
+                            <button class="registeration">Registeration</button>
+                        </div>
+                        <span class="topline"><hr></span>
+                        <div class="banner">
+                            <img src="image.jpg" width="100%" height="470px;">
+                            <button class="storybtn" onclick="scrolldown()">Click to Upload stories</button>
+                        </div>
+                        <div class="uploadstory">
+                            <h2 style="padding: 20px 0;">SHARE THE EXPERIENCE</h2>
+                            <textarea rows="10" cols="70"></textarea>
+                            <br>
+                            <button class="uploadbtn">Upload Story</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function scrolldown(){
+                window.scrollBy(0,300);
+            }
+        </script>
+    </body>
+</html>
